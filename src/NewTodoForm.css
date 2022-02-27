@@ -1,0 +1,32 @@
+.NewTodoForm {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.NewTodoForm label {
+  min-width: 100%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.NewTodoForm input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  padding: 0 2.4rem;
+  font-size: initial;
+}
+.NewTodoForm input:focus {
+  outline: none;
+  background: #f3dcdc;
+}
+.NewTodoForm button {
+  padding: 1rem 2rem;
+  border: none;
+  background: #ff6666;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 5px;
+}
